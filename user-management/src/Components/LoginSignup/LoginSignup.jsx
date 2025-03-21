@@ -37,7 +37,8 @@ function LoginSignup() {
          <div className={action==="Login" ?"Submit gray":"submit"} onClick={() => {setAction("Sign Up")}}>Sign Up</div> 
          <div className={action==="Sign Up" ?"Submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div> 
       </div>
-  </div>
+  </div>/
+  
   </div>
  
 </>
